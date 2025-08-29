@@ -33,14 +33,34 @@ git clone https://github.com/GitTestingPat/Javascript-Basics.git
 cd Javascript-Basics
 ```
 
-Ejecución de los ejercicios
-En el navegador
+## Ejecución de los ejercicios
+
+# En el navegador
 Abre el archivo .html correspondiente en tu navegador.
 Inspecciona la consola del navegador para ver los resultados de los ejercicios de JavaScript.
-Con Node.js (para archivos .js independientes)
-Abre la terminal en la carpeta del repositorio.
 
-Ejecuta el archivo deseado con Node.js:
+## Con Node.js (para archivos .js independientes)
+1. Abre la terminal en la carpeta del repositorio.
+2. Ejecuta el archivo deseado con Node.js:
 
-sh
+```sh
+node nombre_del_ejercicio.js
+```
+## Ejercicios destacados
+
+- **arrays.js:** Introducción y manipulación de arreglos.
+- **objects.js:** Trabajo con objetos y sus propiedades.
+- **dom_manipulation.html:** Ejemplo de cómo interactuar con el DOM usando JavaScript.
+- **functions.js:** Ejercicios de declaración y uso de funciones.
+
+## Contribuir
+
+¿Quieres agregar más ejercicios o mejorar los existentes? ¡Bienvenido!  
+Puedes hacer un fork del repositorio, agregar tus cambios y enviar un pull request.
+
+---
+
+¿Necesitas ayuda para ejecutar algún ejercicio, instalar Node.js o tienes dudas sobre JavaScript?  
+Consulta la [documentación oficial de JavaScript](https://developer.mozilla.org/es/docs/Web/JavaScript) o abre un issue en el repositorio.
+
 
