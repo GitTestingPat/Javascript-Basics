@@ -1,6 +1,6 @@
 /**
- * Crear un programa que tome un array
- * de objetos y retorne un array de pares.
+    Create a program that takes an array
+    of objects and returns an array of key-value pairs.
  */
 let array = [{
     id: 1,
@@ -22,12 +22,12 @@ let pares = [
 function toPairs(array) {
     let pairs = [];
     for (idx in array) {
-        let elemento = array[idx];
-        pairs[idx] = [elemento.id, elemento];
+        let element = array[idx];
+        pairs[idx] = [element.id, element];
     }
 
     return pairs;
 }
 
-let resultado = toPairs(array);
-console.log(resultado);
+let result = toPairs(array);
+console.log(result);
