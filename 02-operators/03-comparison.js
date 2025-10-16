@@ -1,10 +1,10 @@
 let a = 10;
-// Operadores Relacionales
+// Relational Operators
 console.log(a > 5);
 console.log(a >= 5);
 console.log(a < 5);
 console.log(a <= 5);
-// Operadores de Igualdad
+// Equality Operators
 console.log(a == 10);
 console.log(a != 10);
 console.log(a == '10');

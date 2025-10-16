@@ -1,23 +1,23 @@
 // short-circuit
 
-// Falso
+// False
 // false
 // 0
 // ''
 // null
 // undefined
 // NaN
-let nombre = 'Chanchito feliz';
-let username = nombre || 'Anonymous';
+let name = 'Happy feet';
+let username = void 0 || 'Anonymous';
 console.log(username);
 
 function fn1() {
-    console.log('soy funcion 1');
+    console.log('I am function 1');
     return false;
 }
 
 function fn2() {
-    console.log('soy funcion 2');
+    console.log('I am function 2');
     return true;
 }
 

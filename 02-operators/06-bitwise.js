@@ -1,5 +1,5 @@
 // Decimal: 0,1,2,3,4,5,6,7,8,9
-// Binario: 0,1
+// Binary: 0,1
 // bit: 0 1
 // Byte: 8 bits
 // Bytes: 00000000 -> 0
