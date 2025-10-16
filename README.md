@@ -1,66 +1,54 @@
 # Javascript-Basics
+This repository contains a collection of basic JavaScript exercises designed to practice different structures, functions, and fundamental concepts of the language. Each file represents an independent exercise and is oriented for people who want to strengthen their JavaScript knowledge from scratch.
 
-Este repositorio contiene una colección de ejercicios básicos de JavaScript diseñados para practicar distintas estructuras, funciones y conceptos fundamentales del lenguaje. Cada archivo representa un ejercicio independiente y está orientado para personas que desean fortalecer sus conocimientos en JavaScript desde cero.
+## Included Exercises
+Some of the exercises you can find in this repository are:
+- Variables and data types
+- Operators and expressions
+- Conditionals (`if`, `else`, `switch`)
+- Loops (`for`, `while`, `do...while`)
+- Functions and scope
+- Arrays and objects
+- Useful array and object methods
+- DOM manipulation (HTML + JavaScript)
+- Events
+- Practical exercises and challenges
 
-## Ejercicios incluidos
+> **Note:** Explore the repository to see the complete list of exercises and files.
 
-Algunos de los ejercicios que puedes encontrar en este repositorio son:
+## Requirements
+- [Node.js](https://nodejs.org/) (optional, to run JavaScript code outside the browser)
+- Updated web browser (Chrome, Firefox, Edge, Safari, etc.)
 
-- Variables y tipos de datos
-- Operadores y expresiones
-- Condicionales (`if`, `else`, `switch`)
-- Bucles (`for`, `while`, `do...while`)
-- Funciones y alcance
-- Arrays y objetos
-- Métodos útiles de arrays y objetos
-- Manipulación del DOM (HTML + JavaScript)
-- Eventos
-- Ejercicios prácticos y retos
-
-> **Nota:** Explora el repositorio para ver la lista completa de ejercicios y archivos.
-
-## Requisitos
-
-- [Node.js](https://nodejs.org/) (opcional, para ejecutar código JavaScript fuera del navegador)
-- Navegador web actualizado (Chrome, Firefox, Edge, Safari, etc.)
-
-## Clonar el repositorio
-
-Abre una terminal o consola y ejecuta:
-
+## Clone the Repository
+Open a terminal or console and execute:
 ```sh
-git clone https://github.com/GitTestingPat/Javascript-Basics.git
+git clone https://github.com/GitTestingPat/Javascript-Basics.git  
 cd Javascript-Basics
 ```
 
-## Ejecución de los ejercicios
+## Running the Exercises
+# In the Browser
+Open the corresponding .html file in your browser.
+Inspect the browser console to see the results of the JavaScript exercises.
 
-# En el navegador
-Abre el archivo .html correspondiente en tu navegador.
-Inspecciona la consola del navegador para ver los resultados de los ejercicios de JavaScript.
-
-## Con Node.js (para archivos .js independientes)
-1. Abre la terminal en la carpeta del repositorio.
-2. Ejecuta el archivo deseado con Node.js:
-
+## With Node.js (for standalone .js files)
+1. Open the terminal in the repository folder.
+2. Run the desired file with Node.js:
 ```sh
-node nombre_del_ejercicio.js
+node exercise_name.js
 ```
-## Ejercicios destacados
 
-- **arrays.js:** Introducción y manipulación de arreglos.
-- **objects.js:** Trabajo con objetos y sus propiedades.
-- **dom_manipulation.html:** Ejemplo de cómo interactuar con el DOM usando JavaScript.
-- **functions.js:** Ejercicios de declaración y uso de funciones.
+## Featured Exercises
+- **arrays.js:** Introduction and manipulation of arrays.
+- **objects.js:** Working with objects and their properties.
+- **dom_manipulation.html:** Example of how to interact with the DOM using JavaScript.
+- **functions.js:** Exercises on declaring and using functions.
 
-## Contribuir
-
-¿Quieres agregar más ejercicios o mejorar los existentes? ¡Bienvenido!  
-Puedes hacer un fork del repositorio, agregar tus cambios y enviar un pull request.
+## Contributing
+Want to add more exercises or improve existing ones? Welcome!  
+You can fork the repository, add your changes, and submit a pull request.
 
 ---
-
-¿Necesitas ayuda para ejecutar algún ejercicio, instalar Node.js o tienes dudas sobre JavaScript?  
-Consulta la [documentación oficial de JavaScript](https://developer.mozilla.org/es/docs/Web/JavaScript) o abre un issue en el repositorio.
-
-
+Need help running any exercise, installing Node.js, or have questions about JavaScript?  
+Check the [official JavaScript documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript) or open an issue in the repository.
