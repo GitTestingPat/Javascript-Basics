@@ -12,18 +12,18 @@
 
 // let a = 1;
 
-// function suma(n){
+// function sum(n){
 //     n++
 // }
 
-// suma(a);
+// sum(a);
 // console.log(a);
 
 let a = { prop: 1 };
 
-function suma(n){
+function sum(n){
     n.prop++;
 }
 
-suma(a);
+sum(a);
 console.log(a);

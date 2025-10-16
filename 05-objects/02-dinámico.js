@@ -1,14 +1,14 @@
 const user = { id: 1 };
 
 user.name = 'Patricio';
-user.guardar = function () {
-    console.log('Guardando', user.name);
-}
+user.save = function () {
+    console.log('Saving', user.name);
+};
 
-user.guardar();
+user.save();
 
 delete user.name;
-delete user.guardar;
+delete user.save;
 console.log(user);
 
 // const user1 = Object.freeze({ id: 1 });

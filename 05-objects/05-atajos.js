@@ -8,10 +8,12 @@ let obj2 = new Object();
  * new Boolean(); true false
  */
 
-function Usuario() {
-	this.name = 'Rafael';
+class User {
+	constructor() {
+		this.name = 'Rafael';
+	}
 }
-let user = new Usuario();
+let user = new User();
 console.log(user.constructor);
 
 const s1 = '1 + 1';
